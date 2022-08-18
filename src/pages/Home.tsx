@@ -73,6 +73,9 @@ function Home() {
       <LinkButton variants={LinkButtonVariants} to="/variants">
         Variants
       </LinkButton>
+      <LinkButton variants={LinkButtonVariants} to="/gestures">
+        Gestures
+      </LinkButton>
     </LinkButtons>
   );
 }
