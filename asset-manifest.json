@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/react-framer-motion/static/js/main.4e377cbf.js",
-    "static/js/787.bcd3a216.chunk.js": "/react-framer-motion/static/js/787.bcd3a216.chunk.js",
-    "index.html": "/react-framer-motion/index.html",
-    "main.4e377cbf.js.map": "/react-framer-motion/static/js/main.4e377cbf.js.map",
-    "787.bcd3a216.chunk.js.map": "/react-framer-motion/static/js/787.bcd3a216.chunk.js.map"
+    "main.js": "https://minuchi.github.io/react-framer-motion/static/js/main.249fcab1.js",
+    "static/js/787.bcd3a216.chunk.js": "https://minuchi.github.io/react-framer-motion/static/js/787.bcd3a216.chunk.js",
+    "index.html": "https://minuchi.github.io/react-framer-motion/index.html",
+    "main.249fcab1.js.map": "https://minuchi.github.io/react-framer-motion/static/js/main.249fcab1.js.map",
+    "787.bcd3a216.chunk.js.map": "https://minuchi.github.io/react-framer-motion/static/js/787.bcd3a216.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.4e377cbf.js"
+    "static/js/main.249fcab1.js"
   ]
 }
