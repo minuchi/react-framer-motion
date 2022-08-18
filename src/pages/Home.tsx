@@ -18,7 +18,7 @@ const LinkButton = styled(motion(Link))`
   margin-bottom: 10px;
   text-decoration: none;
   color: white;
-  font-size: 30px;
+  font-size: 24px;
   padding: 10px 5px;
   transition: background-color 0.2s ease-in-out;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);
@@ -38,8 +38,8 @@ const LinkButtonsVariants = {
     opacity: 1,
     transition: {
       type: 'spring',
-      delayChildren: 0.3,
-      staggerChildren: 0.5,
+      delayChildren: 0.2,
+      staggerChildren: 0.2,
     },
   },
 };
@@ -55,7 +55,7 @@ const LinkButtonVariants = {
     opacity: 1,
     rotateZ: 360,
     transition: {
-      duration: 0.5,
+      duration: 0.2,
     },
   },
 };
@@ -74,6 +74,9 @@ function Home() {
       </LinkButton>
       <LinkButton variants={LinkButtonVariants} to="/path">
         Path
+      </LinkButton>
+      <LinkButton variants={LinkButtonVariants} to="/code-challenge">
+        Code Challenge
       </LinkButton>
     </LinkButtons>
   );
