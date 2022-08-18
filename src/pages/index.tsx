@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { getPathnameFromURL } from '../utils/url';
 import Animation from './Animation';
 import CodeChallenge from './CodeChallenge';
 import Gestures from './Gestures';
@@ -8,7 +9,7 @@ import Variants from './Variants';
 
 function Pages() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={getPathnameFromURL(process.env.PUBLIC_URL)}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/animation" element={<Animation />} />
