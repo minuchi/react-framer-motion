@@ -60,10 +60,6 @@ const LinkButtonVariants = {
   },
 };
 
-/*      transition={{ type: 'spring', delay: 0.5 }}
-        initial={{ scale: 0 }}
-        animate={{ scale: 1, rotateZ: 360 }} */
-
 function Home() {
   return (
     <LinkButtons variants={LinkButtonsVariants} initial="start" animate="end">
@@ -75,6 +71,9 @@ function Home() {
       </LinkButton>
       <LinkButton variants={LinkButtonVariants} to="/gestures">
         Gestures
+      </LinkButton>
+      <LinkButton variants={LinkButtonVariants} to="/path">
+        Path
       </LinkButton>
     </LinkButtons>
   );
